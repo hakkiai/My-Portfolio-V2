@@ -1,20 +1,21 @@
 import Header from '../components/header';
 import PageContainer from '../components/layouts/page-container';
-import { Thoughts } from '../components/thoughts';
-import { getPosts } from './utils';
 
 export const metadata = {
   title: 'Thoughts',
-  description: 'My Thoughts - Dale Larroder',
+  description: 'My Thoughts - Abhishek Tripathi',
 };
 
 export default function ThoughtsPage() {
-  const posts = getPosts();
-
   return (
     <PageContainer>
       <Header title="Thoughts" />
-      <Thoughts posts={posts} />
+      <div className="mt-8 text-center">
+        <h2 className="text-2xl font-bold mb-4">Coming Soon</h2>
+        <p className="text-gray-600">
+          I'm currently working on some interesting articles. Stay tuned!
+        </p>
+      </div>
     </PageContainer>
   );
 }
