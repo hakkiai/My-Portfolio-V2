@@ -27,13 +27,15 @@ export default function Home() {
             </h1>
             <section className="relative z-10">
               <p className="text-base text-justify">
-                I'm Abhishek Tripathi Kuberji — a Software Engineer and forever a
-                student of the craft. I love building things for the web and am
-                always on the lookout for new challenges and opportunities to
-                learn. I'm passionate about creating beautiful and
-                functional user experiences. I believe the best way to learn is
-                by doing, so I'm constantly exploring new technologies.
-                Right now, I'm building full-stack web apps and experimenting with AI to create tools that solve real problems.
+                I&apos;m Abhishek Tripathi Kuberji — a Software Engineer and
+                forever a student of the craft. I love building things for the
+                web and am always on the lookout for new challenges and
+                opportunities to learn. I&apos;m passionate about creating
+                beautiful and functional user experiences. I believe the best
+                way to learn is by doing, so I&apos;m constantly exploring new
+                technologies. Right now, I&apos;m building full-stack web apps
+                and experimenting with AI to create tools that solve real
+                problems.
               </p>
             </section>
             <section className="relative z-10 flex space-x-4 items-center text-sm">
